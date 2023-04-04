@@ -1,72 +1,59 @@
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-	  font-family: Helvetica;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
 
-  header {
-    background-color: #0D1B2A;
-    background-image: url('header-image.png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 200px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
+header {
+  background-color: #0D1B2A;
+  background-image: url('header-image.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 
-  nav {
-    background-color: #0D1B2A;
-    color: #415A77;
-    text-align: center;
-    position: fixed;
-    top: 200px;
-    left: 0;
-    right: 0;
-  }
+nav {
+  background-color: #0D1B2A;
+  color: #415A77;
+  text-align: center;
+  position: fixed;
+  top: 200px;
+  left: 0;
+  right: 0;
+}
 
-  nav ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-  }
+ nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
 
-  nav li {
-    margin: 0 100px;
-  }
+nav li {
+  margin: 0 100px;
+}
 
-  nav a {
-    text-decoration: none;
-    color: #415A77;
-    font-size: 2.7rem;
-    letter-spacing: 2px;
-  }
+nav a {
+  text-decoration: none;
+  color: #415A77;
+  font-size: 2.7rem;
+  letter-spacing: 2px;
+}
 
-  body {
-    background-color: #415A77;
-  }
-
-  #watch-container {
-    margin-top: 250px;
-  }
-
-.watch {
-display: align;
-flex-direction: align;
-align-items: align;
-border: 1px solid black;
-padding: 20px;
-margin-bottom: 40px;
+body {
+  background-color: #415A77;
+}
+p{
+  color: #ffffff;
+  font-size: 1.1rem;
 
 }
 
-  .watch img {
-    width: 200px;
-    height: 200px;
-  }
 
 button {
   background-color: #0D1B2A; 
@@ -78,14 +65,44 @@ button {
   display: inline-block;
   font-size: 16px;
 }
-  footer {
-    background-color: #0D1B2A;
-    color: #415A77;
-    text-align: center;
-    padding: 30px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    font-size: 2
-  }
+/*beim hovern über a-Tags, color propert auf weiß gesetzt */
+.hover-list a:hover {
+  color: rgb(255, 255, 255);
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.text {
+  width: 50%;
+}
+
+.image-container {
+  width: 50%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+footer {
+  background-color: #0D1B2A;
+  color: #415A77;
+  text-align: center;
+  padding: 30px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 2
+}
